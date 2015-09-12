@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>网球协会报名</title>
+<style>
+h1 {background:black;
+color:white;
+border:100 80;
+text-align:center;}
+p {border:100 80;
+text-align:center;}
+span {color:red;}
+</style>
+</head>
+<body>
+<h1>网球协会报名</h1>
+<form method="post" action="index.php">
+<p>姓名：<span>*</span>
+<input type="text" name="name">
+</p>
+
+<p>学号：<span>*</span>
+<input type="text" name="studentid">
+</p>
+
+<p>学院：<span>*</span>
+<input type="text" name="school">
+</p>
+
+<p>专业：<span>*</span>
+<input type="text" name="major">
+</p>
+
+<p>手机：<span>*</span>
+<input type="text" name="phonenumber">
+</p>
+
+<p>邮箱：
+<input type="text" name="mailbox">
+</p>
+
+<p>会员类型：<span>*</span>
+<br>
+<label>兴趣班</label>
+<input type="radio" value="1" name="membertype">
+<br>
+<label>技术班</label>
+<input type="radio" value="2" name="membertype">
+<br>
+<label>干事</label>
+<input type="radio" value="3" name="membertype">
+<br>
+<span>注：技术班只限报5人，<br>
+先报名的优先进入，<br>
+届时会已短信通知录取结果</span>
+</p>
+<span style="display:block;text-align:center;">
+<input type="submit" value="提交"/>
+<input type="reset" value="重置"/>
+</span>
+</form>
+</body>
+</html>
